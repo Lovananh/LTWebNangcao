@@ -135,6 +135,7 @@
     <Content Include="asset\css\font-awesome.min.css" />
     <Content Include="asset\css\sequence-looptheme.css" />
     <Content Include="asset\css\style.css" />
+    <Content Include="asset\css\styleLogin.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="images\activeden.png" />
@@ -144,7 +145,7 @@
     <Content Include="images\banner-01.jpg" />
     <Content Include="images\banner-02.jpg" />
     <Content Include="images\banner-small-01.png" />
-    <Content Include="images\bg.jpg" />
+    <Content Include="asset\imageLogin\bg.jpg" />
     <Content Include="images\black_transparent50.png" />
     <Content Include="images\carticon.png" />
     <Content Include="images\down-arow-2.png" />
@@ -158,6 +159,7 @@
     <Content Include="images\grid-icon.png" />
     <Content Include="images\in.png" />
     <Content Include="images\list-icon.png" />
+    <Content Include="asset\imageLogin\lock.png" />
     <Content Include="images\loginbg.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\message.png" />
@@ -199,6 +201,7 @@
     <Content Include="images\themeforest.png" />
     <Content Include="images\twi.png" />
     <Content Include="images\up-arow.png" />
+    <Content Include="asset\imageLogin\user.png" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery-1.10.2.min.js" />
     <Content Include="js\jquery.carouFredSel-6.2.1-packed.js" />
