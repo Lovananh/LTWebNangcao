@@ -691,4 +691,16 @@ input[type="submit"] {
         font-size: 14px;
     }
 }
+
+.form-group label {
+    display: block; /* Hiển thị trên một dòng riêng */
+    margin-bottom: 8px; /* Khoảng cách với phần tử bên dưới */
+    color: #fff; /* Màu chữ */
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: 500; /* Độ đậm của chữ */
+    letter-spacing: 1px; /* Khoảng cách giữa các ký tự */
+    text-transform: uppercase; /* Chữ in hoa */
+    text-align: left; /* Căn trái */
+    padding-left: 15px; /* Thụt lề trái */
+}
 /*--//responsive--*/

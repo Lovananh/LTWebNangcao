@@ -22,12 +22,17 @@ namespace WebApp1.Controllers
             {
                 return View(model);
             }
-
+            //ViewBag.Debug = $"Username: {model.Username}, Password: {model.Password}";
             // Kiểm tra đăng nhập đơn giản (có thể thay bằng DB)
             if (model.Username == "admin" && model.Password == "123")
             {
-                Session["User"] = model.Username;
+                Session["Admin"] = model.Username;
                 return RedirectToAction("Index", "Admin");
+            }
+            else if (model.Username.ToLower() == "user" && model.Password == "123")
+            {
+                Session["User"] = model.Username;
+                return RedirectToAction("Index", "User");
             }
             else
             {

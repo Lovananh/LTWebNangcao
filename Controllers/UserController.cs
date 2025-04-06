@@ -6,16 +6,16 @@ using System.Web.Mvc;
 
 namespace WebApp1.Controllers
 {
-    public class AdminController : Controller
+    public class UserController : Controller
     {
-        // GET: Admin
+        // GET: User
         public ActionResult Index()
         {
-            if (Session["Admin"] == null)
+            if (Session["User"] == null)
             {
                 return RedirectToAction("Login", "Login");
             }
-                return View();
+            return View();
         }
     }
 }
